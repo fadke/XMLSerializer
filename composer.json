@@ -1,0 +1,30 @@
+{
+    "name": "fadke/serializer",
+    "version": "1.0.0",
+    "type": "library",
+    "description": "A simple serializer",
+    "keywords": ["serialization", "serialize", "xml"],
+    "homepage": "https://github.com/fadke/serializer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Martynov",
+            "email": "ya.denis-martinov@yandex.ru",
+            "role": "Developer"
+        }
+    ],
+    "require" : {
+        "php" : ">=7.4",
+        "ext-xml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fadke\\Serializers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fadke\\Serializers\\Tests\\": "tests/"
+        }
+    }
+}
